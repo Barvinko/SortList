@@ -1,0 +1,36 @@
+
+html{
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    html{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px){
+    html{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 280px){
+    html{
+        font-size: 10px;
+    }
+    tr#head{
+        font-size: 1.2rem;
+    }
+}
+
+tr#head{
+    font-size: 1.3rem;
+}
+
+div.table-responsive > div{
+    color: rgba(0, 0, 0, 0.535);
+    font-weight: 600;
+}
+
+
